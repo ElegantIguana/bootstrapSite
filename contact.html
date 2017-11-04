@@ -14,7 +14,7 @@
 
     <!-- Header -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light myNavbar">
-  			<a class="navbar-brand col-md-2 myHeading" href="#">Armand Guim</a>
+  			<a class="navbar-brand col-md-2 myHeading" href="index.html">Armand Guim</a>
   				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     				<span class="navbar-toggler-icon"></span>
   				</button>
@@ -45,13 +45,17 @@
         </div>
         <hr>
         <div class="row">
-          <div class="col-md-3">
-            <img src="./img/me.png" alt="Placeholder" class="img-thumbnail selfie">
-          </div>
           <div class="col-md-9">
-            <p>
-              Contact form goes here.
-            </p>
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+               Name:<br>
+                <input type="text" name="name"><br>
+                E-mail:<br>
+                <input type="text" name="mail"><br>
+                Comment:<br>
+                <input type="text" name="comment" size="50"><br><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
           </div>
         </div>
       </div>    

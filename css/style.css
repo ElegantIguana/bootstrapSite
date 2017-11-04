@@ -9,6 +9,11 @@
 
 .myNavbar {
 	background-color: #ffffff;
+	border-bottom: 1px solid black;
+}
+
+.myLinks::hover {
+	color: green;
 }
 
 .myBackground {
@@ -52,6 +57,11 @@
 	width: 48px;
 }
 
+.myThumb {
+	height: 200px; 
+	width: 200px;
+}
+
 
 .stickyFooter {
 	position: absolute;
@@ -60,6 +70,7 @@
 	height: 80px;
 	line-height: 80px;
 	background-color: #b8b0a2;
+	border-top: 1px solid black;
 	text-align: center;
 }
 
